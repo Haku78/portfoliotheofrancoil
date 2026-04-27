@@ -1,5 +1,3 @@
-# Mon Bebou
-
 pour lancer le serv :
 ```
 npm run dev
