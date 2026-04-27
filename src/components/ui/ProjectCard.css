@@ -1,0 +1,26 @@
+.card {
+  padding: 20px ;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  cursor: default;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.card p {
+  display: -webkit-box;       /* nécessaire pour le clamp */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;      /* limite à 3 lignes */
+  line-clamp: 2;               /* standard, compatibilité future */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+

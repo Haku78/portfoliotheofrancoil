@@ -1,0 +1,84 @@
+﻿.heroSection {
+  padding: 6rem 1.5rem 4rem;
+  background: radial-gradient(circle at top left, rgba(90, 208, 221, 0.15), transparent 38%),
+    linear-gradient(180deg, #fafafa 0%, #f7f5f0 100%);
+}
+
+.heroGrid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  align-items: center;
+}
+
+.heroCopy {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.overline {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--muted);
+}
+
+.heroCopy h1 {
+  margin: 0;
+  font-size: clamp(2.6rem, 4vw, 4.4rem);
+  line-height: 1.05;
+  color: var(--text);
+}
+
+.lead {
+  margin: 0;
+  max-width: 42rem;
+  color: var(--muted);
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.ctaGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.highlights {
+  display: grid;
+  gap: 1rem;
+}
+
+.highlightCard {
+  border-radius: var(--radius-xl);
+}
+
+.heroPanel {
+  display: flex;
+  justify-content: center;
+}
+
+.heroPanel .card {
+  width: 100%;
+}
+
+.heroPanel h2 {
+  margin-top: 0;
+}
+
+.heroPanel ul {
+  margin: 1rem 0 0;
+  padding-left: 1.15rem;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.heroPanel li {
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 860px) {
+  .heroGrid {
+    grid-template-columns: 1fr;
+  }
+}

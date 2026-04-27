@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-haku",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://Haku78.github.io/portfolio/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "deploy-friend": "gh-pages -d dist -r https://github.com/Haku78/portfolio.git"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.10"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "gh-pages": "^6.3.0",
+    "puppeteer": "^24.42.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vite-plugin-solid": "^2.11.10"
+  }
+}

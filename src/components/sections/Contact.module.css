@@ -1,0 +1,49 @@
+﻿.contactSection {
+  width: 100%;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 1.5rem;
+}
+
+.contactForm {
+  display: grid;
+  gap: 1rem;
+}
+
+.contactMeta {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contactMeta a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contactMeta a:hover,
+.contactMeta a:focus-visible {
+  text-decoration: underline;
+}
+
+.status {
+  min-height: 1.6rem;
+  margin: 0;
+  color: var(--text);
+}
+
+.success {
+  color: #0f5132;
+}
+
+.error {
+  color: #842029;
+}
+
+@media (max-width: 860px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}

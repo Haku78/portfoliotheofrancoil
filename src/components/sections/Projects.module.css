@@ -1,0 +1,78 @@
+﻿.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.projectHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.projectCount {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.filterHint {
+  color: var(--muted);
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 1.5rem;
+}
+
+.projectList {
+  display: grid;
+  gap: 1rem;
+}
+
+.cardWrapper {
+  cursor: pointer;
+}
+
+.detailCard {
+  min-height: 320px;
+}
+
+.detailCard h3 {
+  margin-top: 0;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.metaTag {
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.06);
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.detailCard ul {
+  margin: 1rem 0 0;
+  padding-left: 1.15rem;
+  line-height: 1.7;
+}
+
+.detailCard li {
+  margin-bottom: 0.85rem;
+}
+
+@media (max-width: 920px) {
+  .projectsGrid {
+    grid-template-columns: 1fr;
+  }
+}

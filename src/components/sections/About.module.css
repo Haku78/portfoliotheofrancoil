@@ -1,0 +1,72 @@
+﻿.aboutGrid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: start;
+}
+
+.textBlock {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.textBlock p {
+  margin: 0;
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+.textBlock ul {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.textBlock li {
+  margin-bottom: 0.85rem;
+}
+
+.summaryCard {
+  min-height: 100%;
+}
+
+.summaryCard h3 {
+  margin-top: 0;
+}
+
+.timeline {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.timelineItem {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.timelineItem span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.timelineItem p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 860px) {
+  .aboutGrid {
+    grid-template-columns: 1fr;
+  }
+}

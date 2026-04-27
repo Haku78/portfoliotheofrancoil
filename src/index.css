@@ -1,0 +1,99 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Itim&family=Acme&display=swap");
+
+:root {
+  color-scheme: light;
+  font-family: var(--font-text);
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+
+  --font-title: "Luckiest Guy", cursive;
+  --font-subtitle: "Itim", cursive;
+  --font-text: "Acme", sans-serif;
+
+  --bg: #f7f4ef;
+  --surface: rgba(255, 255, 255, 0.72);
+  --surface-strong: rgba(255, 255, 255, 0.88);
+  --text: #0f172a;
+  --muted: #475569;
+  --accent: #5ad0dd;
+  --accent-soft: rgba(90, 208, 221, 0.18);
+  --radius-sm: 16px;
+  --radius-lg: 28px;
+  --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.08);
+  --shadow-elevated: 0 24px 70px rgba(15, 23, 42, 0.12);
+  --focus: rgba(90, 208, 221, 0.45);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: radial-gradient(circle at top left, rgba(90, 208, 221, 0.16), transparent 22%),
+    radial-gradient(circle at bottom right, rgba(253, 186, 116, 0.12), transparent 25%),
+    var(--bg);
+  color: var(--text);
+  font-family: var(--font-text);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea,
+a {
+  font: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+}
+
+h2 {
+  font-size: clamp(2rem, 3vw, 2.6rem);
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  max-width: 1120px;
+}
