@@ -22,7 +22,7 @@ export default function About() {
           <h3>Formation</h3>
           <div class={styles.timeline}>
             <div class={styles.timelineItem}>
-              <span>2024 - 2027</span>
+              <span>En cours</span>
               <p>
                 Bachelor digital<br />
                 (Graphisme, Photo/Vidéo, Dev web, Marketing…)<br />
