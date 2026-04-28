@@ -65,8 +65,8 @@ export default function Contact() {
         <div class={styles.contactMeta}>
           <GlassCard>
             <h3>Contact alternatif</h3>
-            <p>Par email : <a href="mailto:testPF@gmail.com">testPF@gmail.com</a></p>
-            <p>LinkedIn : <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">linkedin.com</a></p>
+            <p>Par email : <a href="theo.francoil@bbox.fr">theo.francoil@bbox.fr</a></p>
+            <p>LinkedIn : <a href="https://www.linkedin.com/in/th%C3%A9o-francoil-52b72a239/" target="_blank" rel="noreferrer">linkedin.com</a></p>
           </GlassCard>
         </div>
       </div>
