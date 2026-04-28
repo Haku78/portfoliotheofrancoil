@@ -7,10 +7,9 @@ export default function Home() {
     <section id="home" class={styles.heroSection}>
       <div class={styles.heroGrid}>
         <div class={styles.heroCopy}>
-          <span class={styles.overline}>Portfolio étudiant</span>
-          <h1>Je crée des expériences digitales convaincantes</h1>
+          <h1>Portfolio étudiant</h1>
           <p class={styles.lead}>
-            Étudiant en marketing digital, je conçois des contenus et des stratégies qui rapprochent les marques de leurs publics.
+            Étudiant en marketing digital, j'ai du concevoir un portfolio pour presenter diverses projets realisés.
           </p>
 
           <div class={styles.ctaGroup}>
