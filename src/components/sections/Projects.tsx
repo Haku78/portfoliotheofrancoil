@@ -34,7 +34,7 @@ export default function Projects() {
     <Section
       id="projects"
       title="Projets Marketing"
-      subtitle="Projets concrets autour du social media, de l’UX et de la stratégie digitale."
+      subtitle="Projets autour du marketing, étude de marché, campagnes social media, création de site web..."
     >
       <div class={styles.filterBar}>
         {tagOptions.map((tag) => (

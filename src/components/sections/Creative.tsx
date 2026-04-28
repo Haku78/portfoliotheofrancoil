@@ -14,7 +14,7 @@ export default function Creative() {
     <Section
       id="creative"
       title="Réalisations créatives"
-      subtitle="Projets visuels et formats de communication conçus pour engager et raconter une histoire."
+      subtitle="Projets creatifs, avec du graphisme, de la vidéo, ou autres formats... "
     >
       <div class={styles.creativeGrid}>
         <div class={styles.cardList}>

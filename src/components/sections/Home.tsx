@@ -7,9 +7,9 @@ export default function Home() {
     <section id="home" class={styles.heroSection}>
       <div class={styles.heroGrid}>
         <div class={styles.heroCopy}>
-          <h1>Portfolio étudiant</h1>
+          <h1>Bienvenue sur mon Portfolio</h1>
           <p class={styles.lead}>
-            Étudiant en marketing digital, j'ai du concevoir un portfolio pour presenter diverses projets realisés.
+            Étudiant en marketing digital, j'ai du concevoir un portfolio pour presenter diverses projets realisés, en cours, stages ou même personels. Vous trouverez ici une sélection de mes projets marketing et créatifs, ainsi que des informations sur mes compétences et mon parcours.
           </p>
 
           <div class={styles.ctaGroup}>
@@ -19,10 +19,10 @@ export default function Home() {
 
           <div class={styles.highlights}>
             <GlassCard class={styles.highlightCard}>
-              <p><strong>Stratégie sociale, UX et contenu</strong> adaptés à chaque projet.</p>
+              <p><strong>Projets Marketing</strong> en lien avec ma spécialité.</p>
             </GlassCard>
             <GlassCard class={styles.highlightCard}>
-              <p><strong>Design clair et accessible</strong> pour une lecture rapide et efficace.</p>
+              <p><strong>Projets créatifs</strong> pour présenter mes autres competences.</p>
             </GlassCard>
           </div>
         </div>
@@ -31,9 +31,9 @@ export default function Home() {
           <GlassCard>
             <h2>En bref</h2>
             <ul>
-              <li>Marketing digital et communication de marque</li>
-              <li>Création de contenu & campagnes social media</li>
-              <li>Conception UX, storytelling et pilotage de projet</li>
+              <li>Portfolio regroupant mes projets académiques et personnels</li>
+              <li>Une vision de mon approche stratégique, créative et digitale</li>
+              <li>Un aperçu concret de mes compétences en marketing et communication</li>
             </ul>
           </GlassCard>
         </div>
