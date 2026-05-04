@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Haku78.github.io/portfolio/",
+  "homepage": "https://github.com/Haku78/portfoliotheofrancoil ",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "deploy-friend": "gh-pages -d dist -r https://github.com/Haku78/portfolio.git"
+    "deploy-friend": "gh-pages -d dist -r https://github.com/Haku78/portfoliotheofrancoil.git"
   },
   "dependencies": {
     "solid-js": "^1.9.10"
